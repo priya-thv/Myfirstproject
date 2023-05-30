@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>payment form</title>
+</head>
+<body>
+    <form>
+        <h1><strong>PAYMENT</strong></h1>
+        <h2>CONTACT INFORMATION</h2>
+        <p>Name: <input type="text" name="name" required></p>
+        <legend><strong>Gender</strong>
+        <p>
+            male <input type="radio" name="gender" id="" required>
+            female <input type="radio" name="gender" id=""required>
+        </p>
+    </legend>
+    <p>Address: <textarea name="Address" id="Address" col="100" row="10"></textarea></p>
+    <p>Email: <input type="email" name="email" id="email" required></p>
+    <p>pincode: <input type="number" name="pincode" id="pincode" required ></p>
+    <hr>
+    <h2>Payment Information</h2>
+    <p>Card type:
+        <select name="card_type" id="card_type" required>
+            <option value="">--select a card type</option>
+            <option value="visa">visa</option>
+            <option value="credit">credit</option>
+            <option value="debit">debit</option>
+            <option value="paytm">paytm</option>
+        </select>
+
+    </p>
+    <p>Card numer <input type="number" name="card number" id="card number"></p>
+    <p>expiry date: <input type="date" name="exp_date" id="exp_date"></p>
+    <p>cvv <input type="password" name="cvv" id="cvv" required></p>
+   <input type="submit" value="pay now"> 
+   </form>
+</body>
+</html>
